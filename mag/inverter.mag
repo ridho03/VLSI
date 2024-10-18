@@ -1,0 +1,38 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1728981945
+<< viali >>
+rect 352 744 386 920
+rect 352 114 386 290
+<< metal1 >>
+rect 346 920 484 932
+rect 346 744 352 920
+rect 386 744 484 920
+rect 346 732 484 744
+rect 548 734 643 783
+rect 510 340 544 685
+rect 346 290 482 302
+rect 594 301 643 734
+rect 346 114 352 290
+rect 386 114 482 290
+rect 570 252 643 301
+rect 346 102 482 114
+use sky130_fd_pr__pfet_01v8_LGS3BL  XM1 ~/project/hiraki
+timestamp 1728981945
+transform 1 0 527 0 1 796
+box -211 -284 211 284
+use sky130_fd_pr__nfet_01v8_64Z3AY  XM2 ~/project/hiraki
+timestamp 1728981945
+transform 1 0 527 0 1 233
+box -211 -279 211 279
+<< labels >>
+flabel metal1 424 840 424 840 0 FreeSans 160 0 0 0 VDD
+port 0 nsew
+flabel metal1 529 511 529 511 0 FreeSans 160 0 0 0 IN
+port 1 nsew
+flabel metal1 623 508 623 508 0 FreeSans 160 0 0 0 OUT
+port 2 nsew
+flabel metal1 412 222 412 222 0 FreeSans 160 0 0 0 GND
+port 3 nsew
+<< end >>
