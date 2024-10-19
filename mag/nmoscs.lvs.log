@@ -38,9 +38,6 @@ No property topography found for device sky130_fd_pr__nfet_01v8
 Comparison output logged to file /home/ridho/project/opamp/mag/nmoscs.lvs.out
 Logging to file "/home/ridho/project/opamp/mag/nmoscs.lvs.out" enabled
 Circuit sky130_fd_pr__nfet_01v8 contains no devices.
-Duplicate pin gnd in cell nmoscs (1)
-Duplicate pin D3 in cell nmoscs (1)
-Duplicate pin D4 in cell nmoscs (1)
 
 Contents of circuit 1:  Circuit: 'nmoscs'
 Circuit nmoscs contains 8 device instances.

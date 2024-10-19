@@ -20,15 +20,15 @@ Class lnmos (0):  Merged 8 parallel devices.
 Subcircuit summary:
 Circuit 1: lnmos                           |Circuit 2: lnmos                           
 -------------------------------------------|-------------------------------------------
-sky130_fd_pr__nfet_01v8 (12->4)            |sky130_fd_pr__nfet_01v8 (16->4)            
+sky130_fd_pr__nfet_01v8 (12->4)            |sky130_fd_pr__nfet_01v8 (12->4)            
 Number of devices: 4                       |Number of devices: 4                       
 Number of nets: 3                          |Number of nets: 3                          
 ---------------------------------------------------------------------------------------
 Netlists match uniquely with property errors.
 sky130_fd_pr__nfet_01v8_ENL4VF_0/sky130_fd_pr__nfet_01v8:0 vs. sky130_fd_pr__nfet_01v8:M1:
- w circuit1: 2   circuit2: 4   (delta=66.7%, cutoff=1%)
+ l circuit1: 0.8   circuit2: 0.15   (delta=137%, cutoff=1%)
 sky130_fd_pr__nfet_01v8_ENL4VF_1/sky130_fd_pr__nfet_01v8:0 vs. sky130_fd_pr__nfet_01v8:M2:
- w circuit1: 2   circuit2: 4   (delta=66.7%, cutoff=1%)
+ l circuit1: 0.8   circuit2: 0.15   (delta=137%, cutoff=1%)
 
 Subcircuit pins:
 Circuit 1: lnmos                           |Circuit 2: lnmos                           

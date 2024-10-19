@@ -38,9 +38,6 @@ No property topography found for device sky130_fd_pr__nfet_01v8
 Comparison output logged to file /home/ridho/project/opamp/mag/lnmos.lvs.out
 Logging to file "/home/ridho/project/opamp/mag/lnmos.lvs.out" enabled
 Circuit sky130_fd_pr__nfet_01v8 contains no devices.
-Duplicate pin GND in cell lnmos (1)
-Duplicate pin D8 in cell lnmos (1)
-Duplicate pin out in cell lnmos (1)
 
 Contents of circuit 1:  Circuit: 'lnmos'
 Circuit lnmos contains 12 device instances.

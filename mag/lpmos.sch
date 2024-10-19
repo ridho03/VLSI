@@ -20,12 +20,12 @@ N 160 260 160 290 {lab=d6}
 N 120 290 160 290 {lab=d6}
 N 120 230 160 230 {lab=d6}
 N 160 230 160 260 {lab=d6}
-N 270 240 310 240 {lab=d7}
-N 310 240 310 270 {lab=d7}
-N 310 270 310 300 {lab=d7}
-N 270 300 310 300 {lab=d7}
+N 270 240 310 240 {lab=out}
+N 310 240 310 270 {lab=out}
+N 310 270 310 300 {lab=out}
+N 270 300 310 300 {lab=out}
 N 250 270 270 270 {lab=VDD}
-N 100 260 120 260 {lab=VDD}
+N 100 260 120 260 {lab=vdd}
 C {sky130_fd_pr/pfet_01v8.sym} 40 -20 0 1 {name=M7
 L=0.5
 W=1
@@ -89,5 +89,5 @@ spiceprefix=X
 }
 C {devices/lab_pin.sym} 160 230 2 0 {name=p8 sig_type=std_logic lab=d6}
 C {devices/lab_pin.sym} 310 240 2 0 {name=p9 sig_type=std_logic lab=out}
-C {devices/iopin.sym} 100 260 2 0 {name=p6 lab=VDD}
-C {devices/iopin.sym} 250 270 2 0 {name=p7 lab=VDD}
+C {devices/lab_pin.sym} 100 260 0 0 {name=p6 sig_type=std_logic lab=vdd}
+C {devices/lab_pin.sym} 250 270 0 0 {name=p7 sig_type=std_logic lab=vdd}

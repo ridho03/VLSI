@@ -20,18 +20,18 @@ N 200 50 250 50 {lab=GND}
 N 250 50 270 50 {lab=GND}
 N 30 50 200 50 {lab=GND}
 N 200 -110 200 -80 {lab=out}
-N 300 -130 330 -130 {lab=GND}
-N 370 -130 380 -130 {lab=D8}
+N 300 -130 330 -130 {lab=gnd}
+N 370 -130 380 -130 {lab=d8}
 N 530 -130 550 -130 {lab=out}
-N 330 -160 380 -160 {lab=D8}
-N 380 -160 380 -130 {lab=D8}
-N 380 -130 380 -100 {lab=D8}
-N 330 -100 380 -100 {lab=D8}
+N 330 -160 380 -160 {lab=d8}
+N 380 -160 380 -130 {lab=d8}
+N 380 -130 380 -100 {lab=d8}
+N 330 -100 380 -100 {lab=d8}
 N 490 -100 550 -100 {lab=out}
 N 550 -130 550 -100 {lab=out}
 N 550 -160 550 -130 {lab=out}
 N 490 -160 550 -160 {lab=out}
-N 470 -130 490 -130 {lab=GND}
+N 470 -130 490 -130 {lab=gnd}
 C {sky130_fd_pr/nfet_01v8.sym} 90 -50 0 1 {name=M8
 L=0.8
 W=1
@@ -64,10 +64,10 @@ C {devices/iopin.sym} 270 50 0 0 {name=p5 lab=GND}
 C {devices/iopin.sym} 70 -190 3 0 {name=p1 lab=D8}
 C {devices/iopin.sym} 200 -110 3 0 {name=p7 lab=out}
 C {sky130_fd_pr/nfet_01v8.sym} 350 -130 0 1 {name=M1
-L=0.8
+L=0.15
 W=1
 nf=1 
-mult=4
+mult=2
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -78,10 +78,10 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/nfet_01v8.sym} 510 -130 0 1 {name=M2
-L=0.8
+L=0.15
 W=1
 nf=1 
-mult=4
+mult=2
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -91,7 +91,7 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {devices/iopin.sym} 470 -130 2 0 {name=p3 lab=GND}
-C {devices/iopin.sym} 300 -130 2 0 {name=p4 lab=GND}
-C {devices/iopin.sym} 380 -100 1 0 {name=p6 lab=D8}
-C {devices/iopin.sym} 550 -100 1 0 {name=p8 lab=out}
+C {devices/lab_pin.sym} 380 -160 2 0 {name=p2 sig_type=std_logic lab=d8}
+C {devices/lab_pin.sym} 550 -160 2 0 {name=p6 sig_type=std_logic lab=out}
+C {devices/lab_pin.sym} 300 -130 0 0 {name=p4 sig_type=std_logic lab=gnd}
+C {devices/lab_pin.sym} 470 -130 0 0 {name=p3 sig_type=std_logic lab=gnd}
