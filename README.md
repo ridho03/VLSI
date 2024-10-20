@@ -22,3 +22,7 @@ Skematik opamp
 magic opamp
 ![Screenshot 2024-10-19 135141](https://github.com/user-attachments/assets/39e5b40c-d036-4ea2-80e1-c2ee06d916a1)
 
+all match
+![Screenshot 2024-10-19 141432](https://github.com/user-attachments/assets/6d3fe900-5455-472d-a9a5-86625378e4f8)
+
+
